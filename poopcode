@@ -1,0 +1,6 @@
+public class poopy
+{
+  Public static main (String[] args){
+  system.println("uh oh poopy");
+}
+};
