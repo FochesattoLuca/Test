@@ -1,10 +1,11 @@
 import java.util.Scanner;
 public class Poopcode
 {
-  public static void main (String[] args)
+  private static Scanner sc;
+public static void main (String[] args)
   {
   System.out.println("uh oh poopy, how many?");
-  Scanner sc = new Scanner(System.in);
+  sc = new Scanner(System.in);
   int luca = sc.nextInt();
   poopyjudger(luca);
   }
